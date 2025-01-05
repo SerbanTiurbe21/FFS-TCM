@@ -1,13 +1,17 @@
 package org.example.protocol;
 
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.math.BigInteger;
 
-@RequiredArgsConstructor
+@Getter
+@Setter
+@NoArgsConstructor
 public class Verifier {
-    private final BigInteger n;
-    private final BigInteger[] v;
+    private BigInteger n;
+    private BigInteger[] v;
 
     public boolean verify(final BigInteger x, final BigInteger y, final byte[] c) {
         final BigInteger left = y.modPow(BigInteger.TWO, n);
