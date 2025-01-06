@@ -1,0 +1,42 @@
+Experiments
+1. Total time
+10 iterations
+	- Key setup time: 83710600 ns
+	- Total protocol execution time: 93400700 ns
+	- Average time per round: 166080 ns
+100 iterations
+	- Key setup time: 97861400 ns
+	- Total protocol execution time: 119591600 ns
+	- Average time per round: 86555 ns
+1000 iterations
+	- Key setup time: 97547800 ns
+	- Total protocol execution time: 182654200 ns
+	- Average time per round: 53354 ns
+2. Comparison with Other Algorithms
+RSA
+10 iterations
+	- RSA Key Generation Time: 496184400 ns
+	- RSA Signing Time: 3277100 ns
+	- Average RSA Verification Time: 307050 ns
+100 iterations
+	- RSA Key Generation Time: 242638200 ns
+	- RSA Signing Time: 3983600 ns
+	- Average RSA Verification Time: 151024 ns
+1000 iterations
+	- RSA Key Generation Time: 230735400 ns
+	- RSA Signing Time: 3967800 ns
+	- Average RSA Verification Time: 81944 ns
+DSA
+10 iterations
+	- DSA Key Generation Time: 86015200 ns
+	- Average DSA Signing Time: 3863070 ns
+	- Average DSA Verification Time: 3119660 ns
+100 iterations
+	- DSA Key Generation Time: 63256800 ns
+	- Average DSA Signing Time: 1299235 ns
+	- Average DSA Verification Time: 995800 ns
+1000 iterations
+	- DSA Key Generation Time: 68530500 ns
+	- Average DSA Signing Time: 575856 ns
+	- Average DSA Verification Time: 853858 ns
+ 
